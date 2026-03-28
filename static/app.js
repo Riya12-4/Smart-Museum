@@ -1,5 +1,5 @@
 // ------------------ CONFIG ------------------
-const BASE_URL = "https://smart-museum-0xgs.onrender.com";
+const API_URL = process.env.NEXT_PUBLIC_CHATBOTURL;
 
 const chatMessages = document.getElementById("chat-messages");
 const chatOptions = document.getElementById("chat-options");
